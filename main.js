@@ -1,12 +1,36 @@
-var login = prompt("Login: ");
-var senha = prompt("Senha: ");
+function validateNumber(){
+	var number = document.getElementById('number_val').value;
 
-var obj = {};
+	if (isNaN(number)) {
+		alert('Não é um número');
+	} else {
+		alert('É um número.');
+	}
 
-obj.login = login;
-obj.senha = senha;
+}
 
-console.log(obj);
+
+// var ft = ['Leonardo', 'Anselmo'];
+
+// ft.push('Freitas');
+
+// console.log(ft);
+
+// ft.pop();
+
+// console.log(ft);
+
+// console.log(ft.indexOf('Anselmo'));
+
+//var login = prompt("Login: ");
+//var senha = prompt("Senha: ");
+
+//var obj = {};
+
+//obj.login = login;
+//obj.senha = senha;
+
+//console.log(obj);
 
 
 //var prop1 = prompt("Modelo ?");
