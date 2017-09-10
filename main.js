@@ -1,18 +1,30 @@
 console.log('Leonardo Anselmo');
 
-var number = 0;
+var age = prompt("quantos anos você tem?");
 
-console.log(typeof number);
+var ageParser = parseInt(age);
 
-var number = "0";
-
-console.log(typeof number);
-
-function myFunction() {
-
-	var number = 0.1 + 1;
-
-	console.log(number);
+if (ageParser >= 18) {
+	console.log('Você está autorizado.');
+} else {
+	console.log('Você não está autorizado.');
 }
 
-myFunction();
+
+
+//var number = 0;
+
+//console.log(typeof number);
+
+//var number = "0";
+
+//console.log(typeof number);
+
+//var myFunction = function() {
+
+//	var number = 0.1 + 1;
+
+//	console.log(number);
+//}
+
+//myFunction();
