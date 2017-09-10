@@ -2,14 +2,21 @@ var prop1 = prompt("Modelo ?");
 var prop2 = prompt("Name ?");
 var prop3 = prompt("Color ?");
 
-var obj = {
-    modelo: prop1,
-    name: prop2,
-    color: prop3
-};
 
-console.log(obj);
+//var obj = {
+//    modelo: prop1,
+//    name: prop2,
+//    color: prop3
+//};
+
+var obj = {};
+
+obj.model = prop1;
+obj.name = prop2;
+obj.color = prop3;
+
 console.log(JSON.stringify(obj));
+
 
 
 // function myFunction(name){
