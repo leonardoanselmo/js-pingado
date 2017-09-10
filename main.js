@@ -1,6 +1,17 @@
-var prop1 = prompt("Modelo ?");
-var prop2 = prompt("Name ?");
-var prop3 = prompt("Color ?");
+var login = prompt("Login: ");
+var senha = prompt("Senha: ");
+
+var obj = {};
+
+obj.login = login;
+obj.senha = senha;
+
+console.log(obj);
+
+
+//var prop1 = prompt("Modelo ?");
+//var prop2 = prompt("Name ?");
+//var prop3 = prompt("Color ?");
 
 
 //var obj = {
@@ -9,14 +20,19 @@ var prop3 = prompt("Color ?");
 //    color: prop3
 //};
 
-var obj = {};
+//var obj = {};
+//
+//obj.model = prop1;
+//obj.name = prop2;
+//obj.color = prop3;
 
-obj.model = prop1;
-obj.name = prop2;
-obj.color = prop3;
+//console.log(JSON.stringify(obj));
 
-console.log(JSON.stringify(obj));
+//obj.start = function() {
+//	console.log('Está pronto');
+//};
 
+//obj.start();
 
 
 // function myFunction(name){
