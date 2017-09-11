@@ -1,3 +1,22 @@
+var input = document.getElementByClassName('number_val_input');
+var btn_generate = document.getElementById('generate_btn');
+
+btn_generate = addEventListener('click', generate);
+
+function generate(){
+	var value = input[0].value;
+
+	for (var i = 0; i < parseInt(value); i++) {
+		
+		var inpt= document.createElement('input')
+		inpt.id = "btn_" + i;
+
+		var body = document.getElementByTagName('body');
+
+		body.appendChild(inpt);
+	}
+}
+
 function validateNumber(){
 	var number = document.getElementById('number_val').value;
 
@@ -18,6 +37,10 @@ function somar(){
 
 	alert('A soma é: '+soma);
 
+}
+
+function over() {
+	alert('OVER ME');
 }
 
 // var ft = ['Leonardo', 'Anselmo'];
