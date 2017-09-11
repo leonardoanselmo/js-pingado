@@ -10,6 +10,16 @@ function validateNumber(){
 }
 
 
+function somar(){
+	var number1 = document.getElementById('num1').value;
+	var number2 = document.getElementById('num2').value;
+
+	var soma = parseInt(number1) + parseInt(number2);
+
+	alert('A soma é: '+soma);
+
+}
+
 // var ft = ['Leonardo', 'Anselmo'];
 
 // ft.push('Freitas');
